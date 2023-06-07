@@ -19,6 +19,12 @@ const Formulario = (props) => {
             imagem,
             time
         });
+
+        // Limpa o formulário depois de enviar
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setTime('')
     }
 
     return (
